@@ -1,25 +1,20 @@
 ---
 galaxy_info:
-  author: Jou naam hier
-  namespace: anylinq
-  role_name: ansibletemplate
-  description: Jou omschrijving hier
-  company: AnyLinQ B.V.
+  author: Ronny Roethof
+  namespace: rroethof
+  role_name: ansible-updates
+  description: Update script for my infra
 
-  issue_tracker_url: https://github.com/AnyLinQ-B-V/template-ansible-role/issues
+  issue_tracker_url: https://github.com/rroethof/ansible-updates/issues
 
   license: MIT
 
   min_ansible_version: 2.1
 
   platforms:
-    - name: EL
-      versions:
-        - 8
-        - 9
     - name: Debian
       versions:
-        - bullseye
+        - bookworm
 
   galaxy_tags: []
 
