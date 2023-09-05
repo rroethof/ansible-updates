@@ -1,4 +1,4 @@
-# Ansible Role: ansible-role-ansible-updates
+# Ansible Role: updates
 
 [![CI](https://github.com/rroethof/ansible-updates/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/rroethof/ansible-updates/actions/workflows/ci.yml)
 [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
@@ -39,7 +39,7 @@ This example is taken from `molecule/default/converge.yml` and is tested on each
   gather_facts: yes
 
   roles:
-    - role: rroethof.ansible-updates
+    - role: rroethof.updates
 ```
 
 ## Setup for development
