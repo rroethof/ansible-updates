@@ -1,12 +1,12 @@
 ---
 # defaults file for ansible-updates
 
-update_autoremove: no
+update_autoremove: false
 
 update_upgrade_command: dist
 
 update_cache_valid_time: 1
 
-update_reboot: yes
+update_reboot: true
 
 update_excluded_packages: []
